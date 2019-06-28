@@ -10,16 +10,25 @@
         flex-flow: row nowrap;
         justify-content: space-around;
     }
+
+    .menu__link:hover {
+        color: aqua;
+    }
+    
+    .menu__link {
+        text-decoration: none;
+    }
+
   </style>
 </head>
 <body>
 <nav>
     <ul class="menu">
-        <li class="menu__item"><a href="home.html">Strona domowa</a></li>
-        <li class="menu__item"><a href="about.html">O nas</a></li>
-        <li class="menu__item"><a href="servis.html">Serwis</a></li>
-        <li class="menu__item"><a href="gallery.html">Galeria</a></li>
-        <li class="menu__item"><a href="contact.html">Kontakt</a></li>
+        <li class="menu__item"><a href="home.html" class="menu__link">Strona domowa</a></li>
+        <li class="menu__item"><a href="about.html" class="menu__link">O nas</a></li>
+        <li class="menu__item"><a href="servis.html" class="menu__link">Usługi</a></li>
+        <li class="menu__item"><a href="gallery.html" class="menu__link">Galeria</a></li>
+        <li class="menu__item"><a href="contact.html" class="menu__link">Kontakt</a></li>
     </ul>
 </nav>
 <main>
